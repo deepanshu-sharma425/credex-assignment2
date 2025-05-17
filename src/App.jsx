@@ -6,6 +6,7 @@ import Navbar from './components/navbar/navbar'
 import About from './components/about/about'
 import ImageScroll from './components/imagescroll/imagescroll'
 import Modern from './components/modernizing/modernizing'
+import Features from './components/features/features'
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <ImageScroll/>
       <Modern/>
+      <Features/>
     
     </>
   )
