@@ -7,6 +7,8 @@ import About from './components/about/about'
 import ImageScroll from './components/imagescroll/imagescroll'
 import Modern from './components/modernizing/modernizing'
 import Features from './components/features/features'
+import Demo from './components/demo/demo'
+import Footer from './components/footer/footer'
 function App() {
   return (
     <>
@@ -16,6 +18,8 @@ function App() {
       <ImageScroll/>
       <Modern/>
       <Features/>
+      <Demo/>
+      <Footer/>
     
     </>
   )

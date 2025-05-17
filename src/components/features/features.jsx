@@ -4,6 +4,7 @@ import email from '../../assets/email1.png'
 import equal from '../../assets/equalizer.png'
 import elec from '../../assets/electricity.png'
 import emoji from '../../assets/emoji.png'
+import command from '../../assets/command.png'
 
 
 
@@ -49,11 +50,12 @@ function Features() {
                     <Ruse img={elec} h1h1='Deployment Automation' pp='From design, sourcing, supply, manufacutinring, and deployment - our system automates the entire process.' />
                     <Ruse img={equal} h1h1='Networking' pp='Ensure that your networking infrastructure is always in place and ready to scale with your deployments.' />
                     <Ruse img={emoji} h1h1='Firmware Versioning' pp='Ensure that your firmware is always up to date and secure with our automated versioning system.' />
-                                        <Ruse img={emoji} h1h1='Firmware Versioning' pp='Ensure that your firmware is always up to date and secure with our automated versioning system.' />
+                    <Ruse img={command} h1h1='Digital Twins' pp='Plan capacity intelligently with our digital twin technology.' />
 
                 </div>
 
             </div>
+            
 
         </div>
     )
