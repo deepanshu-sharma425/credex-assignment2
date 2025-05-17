@@ -26,7 +26,7 @@ function About() {
 
                 </div>
             </div>
-            <div className="div1about">
+            <div className="div222about">
                 <div className="divabout11"></div>
                 <div className="divabout12"></div>
             </div>

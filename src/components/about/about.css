@@ -20,6 +20,13 @@
     width: 122px;
     border-right: 1px solid #202024;
 }
+.div222about{
+     display: flex;
+    flex-direction: column;
+    width: 122px;
+    border-left: 1px solid #202024;
+
+}
 
 .divabout12 {
     height: 100px;
