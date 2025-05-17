@@ -5,7 +5,7 @@ import './App.css'
 import Navbar from './components/navbar/navbar'
 import About from './components/about/about'
 import ImageScroll from './components/imagescroll/imagescroll'
-
+import Modern from './components/modernizing/modernizing'
 function App() {
   return (
     <>
@@ -13,6 +13,7 @@ function App() {
       <Navbar/>
       <About/>
       <ImageScroll/>
+      <Modern/>
     
     </>
   )
