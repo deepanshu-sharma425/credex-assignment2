@@ -1,0 +1,45 @@
+.aa {
+    height: 422px;
+    color: white;
+
+    background: radial-gradient(circle at bottom center,
+            #261c3d 8%,
+            #09090b 60%
+        );
+        border-bottom: 1px solid #202024;
+
+        display: flex;
+
+    
+
+
+}
+.div1about{
+    display: flex;
+    flex-direction: column;
+    width: 122px;
+     border-right:1px solid #202024; 
+}
+.divabout12{
+    height: 92px;
+    border-top:1px solid #202024; 
+    /* border-right:1px solid #202024;  */
+
+}
+.divabout11{
+     height: 330px;
+    
+
+}
+.div2about{
+    width: 1273px;
+    border-right:1px solid #202024; 
+}
+.divabout21{
+    height: 329px;
+
+}
+.divabout22{
+    height: 92px;
+    border-top:1px solid #202024 ;
+}

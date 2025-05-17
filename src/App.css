@@ -3,3 +3,8 @@ html,*{
   margin: 0;
   box-sizing: border-box;
 }
+
+body{
+  margin-top: 66px;
+  background-color: #09090b;
+}
