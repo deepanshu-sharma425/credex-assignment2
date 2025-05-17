@@ -1,4 +1,4 @@
-/* Base styles (mobile first) */
+
 .nenene {
   display: flex;
   flex-direction: column;
@@ -128,7 +128,7 @@
   gap: 12px;
   width: 100%;
   padding: 20px;
-  /* Border-bottom removed as requested */
+
 }
 
 .ques1 {
@@ -147,7 +147,6 @@
   letter-spacing: -0.3px;
 }
 
-/* Tablet (768px and up) */
 @media (min-width: 768px) {
   .nenene {
     padding: 60px 32px;
@@ -194,7 +193,7 @@
   }
 }
 
-/* Desktop (1024px and up) */
+
 @media (min-width: 1024px) {
   .demoshow {
     max-width: 1200px;
@@ -209,7 +208,7 @@
   }
 }
 
-/* Large desktop (1280px and up) */
+
 @media (min-width: 1280px) {
   .nenene {
     padding: 80px 0;

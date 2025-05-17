@@ -1,4 +1,4 @@
-/* Base Styles */
+
 .navbarmain {
   background-color: #040404;
   color: #fafafa;
@@ -33,7 +33,7 @@
   font-size: 24px;
 }
 
-/* Desktop Navigation */
+
 .hamburgerlater {
   display: flex;
   align-items: center;
@@ -106,7 +106,7 @@
 
 
 
-/* Right-aligned dropdowns */
+
 .infomoreoptions:nth-last-child(1) .dropdown-menu,
 .infomoreoptions:nth-last-child(2) .dropdown-menu {
   left: auto;
@@ -114,30 +114,30 @@
   transform: none;
 }
 
-/* Mobile Navigation - Updated with larger size */
+
 .hamburger-icon {
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  width: 40px;  /* Increased from 30px */
-  height: 30px; /* Increased from 21px */
+  width: 40px; 
+  height: 30px; 
   cursor: pointer;
   z-index: 1001;
-  padding: 8px 7px; /* Increased padding */
+  padding: 8px 7px; 
   border: 1px solid #27272a;
   border-radius: 5px;
 }
 
 .hamburger-icon span {
   display: block;
-  height: 3px;  /* Increased from 2px */
+  height: 3px; 
   width: 100%;
   background-color: #fafafa;
   transition: all 0.3s ease;
 }
 
 .hamburger-icon.active span:nth-child(1) {
-  transform: translateY(11px) rotate(45deg); /* Adjusted for new size */
+  transform: translateY(11px) rotate(45deg); 
 }
 
 .hamburger-icon.active span:nth-child(2) {
@@ -145,10 +145,10 @@
 }
 
 .hamburger-icon.active span:nth-child(3) {
-  transform: translateY(-11px) rotate(-45deg); /* Adjusted for new size */
+  transform: translateY(-11px) rotate(-45deg);
 }
 
-/* Mobile Menu */
+
 @media screen and (max-width: 1020px) {
   .hamburgerlater {
     position: fixed;
@@ -208,7 +208,7 @@
     white-space: normal;
   }
   
-  /* Remove right alignment for mobile */
+
   .infomoreoptions:nth-last-child(1) .dropdown-menu,
   .infomoreoptions:nth-last-child(2) .dropdown-menu {
     left: 0;
@@ -216,7 +216,7 @@
   }
 }
 
-/* Small mobile devices - Updated with proportional sizing */
+
 @media screen and (max-width: 480px) {
   .navbarmain {
     padding: 12px 20px;
@@ -232,13 +232,13 @@
   }
   
   .hamburger-icon {
-    width: 36px;  /* Increased from 26px */
-    height: 26px; /* Increased from 18px */
+    width: 36px; 
+    height: 26px; 
     padding: 7px 6px;
   }
   
   .hamburger-icon span {
-    height: 2.5px; /* Slightly thinner on small devices */
+    height: 2.5px; 
   }
   
   .hamburger-icon.active span:nth-child(1) {

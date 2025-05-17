@@ -1,4 +1,4 @@
-/* Base styles (mobile first) */
+
 .footer {
   padding-top: 40px;
   width: 100%;
@@ -33,7 +33,7 @@
   width: 36px;
 }
 
-/* Tablet (768px and up) */
+
 @media (min-width: 768px) {
   .footer {
     padding-top: 50px;
@@ -46,7 +46,7 @@
   }
 }
 
-/* Desktop (1024px and up) */
+
 @media (min-width: 1024px) {
   .footer {
     padding-top: 60px;
@@ -59,7 +59,7 @@
   }
 }
 
-/* Large desktop (1440px and up) */
+
 @media (min-width: 1440px) {
   .footerinfo {
     padding: 30px 200px;

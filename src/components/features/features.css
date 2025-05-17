@@ -1,4 +1,4 @@
-/* Base styles (mobile first) */
+
 .featuresmain {
   display: flex;
   flex-direction: column;
@@ -204,7 +204,7 @@ button {
   margin: 0;
 }
 
-/* Tablet (768px and up) */
+
 @media (min-width: 768px) {
   .featuresmain {
     gap: 60px;
@@ -272,7 +272,7 @@ button {
   }
 }
 
-/* Desktop (1024px and up) */
+
 @media (min-width: 1024px) {
   .featuresabouth1 p:nth-child(1) {
     font-size: 36px;
