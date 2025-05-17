@@ -124,5 +124,15 @@ font-weight: 400;
     }
     
 }
+@media (max-width:410px) {
+    .divabout22 button{
+    all: none;
+    border: none;
+    width: 332px;
+    height: 60px;
+    color: white;
+    font-size: 14px;}
+    
+}
 
 
