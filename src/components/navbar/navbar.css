@@ -6,6 +6,11 @@
   justify-content: space-between;
   padding: 14px 33px;
   overflow: visible;
+   position: fixed; /* Fixes the navbar */
+  top: 0;          /* Stick to top */
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }
 
 .text-with-arrow {
