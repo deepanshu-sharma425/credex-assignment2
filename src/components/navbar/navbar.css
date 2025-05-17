@@ -70,7 +70,7 @@
 .menu-title {
   display: flex;
   align-items: center;
-  /* width: 100%; */
+
 }
 
 .infomoreoptions .arrow {
@@ -101,7 +101,7 @@
   word-break: break-word;
   overflow-x: hidden;
   overflow-y: auto;
-  /* max-height: 60vh; */
+
   z-index: 1000;
   box-sizing: border-box;
 }
@@ -128,7 +128,7 @@
   cursor: pointer;
 }
 
-/* Show dropdown on hover for desktop */
+
 @media screen and (min-width: 1021px) {
   .infomoreoptions:hover .dropdown-menu {
     display: block;
@@ -143,7 +143,7 @@
   margin-right: 0;
 }
 
-/* Hamburger menu styles */
+
 .hamburger-icon {
   display: none;
   flex-direction: column;
@@ -160,13 +160,13 @@
 .hamburger-icon span {
   display: block;
   height: 3px;
-  /* width: 100%; */
+
   background-color: #fafafa;
   border-radius: 3px;
   transition: all 0.3s ease;
 }
 
-/* Hamburger animation */
+
 .hamburger-icon.active span:nth-child(1) {
   transform: translateY(9px) rotate(45deg);
 }
@@ -179,14 +179,14 @@
   transform: translateY(-9px) rotate(-45deg);
 }
 
-/* Media queries for responsive design - changed to 1020px as requested */
+
 @media screen and (max-width: 1020px) {
   .hamburgerlater {
     position: fixed;
     top: -100vh;
     left: 0;
     right: 0;
-    /* width: 100%; */
+
     height: 100vh;
     background-color: #040404;
     flex-direction: column;
@@ -206,7 +206,7 @@
   }
   
   .infomoreoptions {
-    /* width: 100%; */
+
     padding: 15px 20px;
     border-bottom: 1px solid #1d1c1d;
     display: flex;
@@ -218,14 +218,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* width: 100%; */
+
   }
   
   .dropdown-menu {
     position: static;
     display: none;
-    /* width: 100%; */
-    /* max-width: 100%; */
+  
     border: none;
     border-radius: 0;
     margin-top: 10px;
@@ -237,12 +236,12 @@
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
   }
   
-  /* Don't show dropdown on hover in mobile view */
+
   .infomoreoptions:hover .dropdown-menu {
     display: none;
   }
   
-  /* Show dropdown when active class is applied */
+
   .infomoreoptions.active .dropdown-menu {
     display: block;
     animation: fadeIn 0.3s ease;
@@ -253,7 +252,7 @@
     to { opacity: 1; transform: translateY(0); }
   }
   
-  /* Improved styling for dropdown items */
+
   .dropdown-menu li {
     padding: 12px 20px;
     border-bottom: 1px solid #1d1c1d;
@@ -269,7 +268,7 @@
     border-bottom: none;
   }
   
-  /* Reset special positioning for last items in mobile view */
+ 
   .infomoreoptions:nth-last-child(1) .dropdown-menu,
   .infomoreoptions:nth-last-child(2) .dropdown-menu {
     right: auto;
