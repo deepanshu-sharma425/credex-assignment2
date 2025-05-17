@@ -1,23 +1,44 @@
-.imagescroll{
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    padding: 100px 0;
-     text-align: center;
+.imagescroll {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 100px 0;
+  text-align: center;
   overflow: hidden;
+}
 
-    
+.aboutimagescroll p {
+  text-align: center;
+  color: #5c5c64;
+  font-size: 16px;
+  font-weight: 400; /* fixed from 400px */
 }
-.aboutimagescroll p{
-    text-align: center;
-    color: #5c5c64;
-    font-size: 16px;
-    font-weight: 400px;
-}
+
 .realimagescroll {
-  overflow: hidden;
-  width: 100%;
   position: relative;
+  overflow: hidden;
+}
+
+/* Blackish fade effect */
+.realimagescroll::before,
+.realimagescroll::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 80px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.realimagescroll::before {
+  left: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), transparent);
+}
+
+.realimagescroll::after {
+  right: 0;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.6), transparent);
 }
 
 .realscroll1 {
@@ -28,7 +49,6 @@
 
 .realscroll1 img {
   height: 39px;
-
   width: 128px;
   object-fit: contain;
   filter: grayscale(100%);
