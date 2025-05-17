@@ -128,11 +128,19 @@ font-weight: 400;
     .divabout22 button{
     all: none;
     border: none;
-    width: 332px;
+    width: 270px;
     height: 60px;
     color: white;
     font-size: 14px;}
+     .abouttext h1{
+        font-size: 22px;
+    }
+    .abouttext p{
+        font-size: 10px;
+    }
+
     
 }
+
 
 
