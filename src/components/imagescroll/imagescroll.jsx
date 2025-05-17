@@ -22,6 +22,8 @@ function ImageScroll() {
                      <img src="https://www.centralaxis.com/landing/logos/cisco.svg" alt="" />
                     <img src="https://www.centralaxis.com/landing/logos/dell.svg" alt="" />
                     <img src="https://www.centralaxis.com/landing/logos/hp.svg" alt="" />
+                     <img src="https://www.centralaxis.com/landing/logos/intel.svg" alt="" />
+                    <img src="https://www.centralaxis.com/landing/logos/lenovo.svg" alt="" />
                 </div>
 
             </div>

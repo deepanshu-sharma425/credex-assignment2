@@ -1,7 +1,8 @@
-.moderndiv{
+.moderndiv {
     padding: 20px 0;
 }
-.maincontentmodern{
+
+.maincontentmodern {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,30 +10,129 @@
     gap: 18px;
 
 }
-.builtforai{
+
+.builtforai {
     background-color: rgb(25, 25, 28);
     text-align: center;
-  padding: 2px 16px;
+    padding: 2px 16px;
     border-radius: 15px;
     color: #71717a;
     letter-spacing: -0.48px;
     font-size: 16px;
 }
-.maincontentmodern p:nth-child(2){
+
+.maincontentmodern p:nth-child(2) {
     font-size: 36px;
-font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-font-weight: 500;
-text-align: center;
-line-height: 40px;
-color: rgb(250, 250, 250);
-letter-spacing: -1.44px;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    text-align: center;
+
+    color: rgb(250, 250, 250);
+    letter-spacing: -1.44px;
 }
-.maincontentmodern p:nth-child(3){
-font-size: 20px;
-font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-font-weight: 300;
-text-align: center;
-line-height: 28px;
-color: rgb(113, 113, 122);
-letter-spacing: -0.8px;
+
+.maincontentmodern p:nth-child(3) {
+    font-size: 20px;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 300;
+    text-align: center;
+ 
+    color: rgb(113, 113, 122);
+    letter-spacing: -0.8px;
+}
+
+.bodymainvide {
+    display: flex;
+    
+    justify-content: center;
+    width: 1260px;
+    padding: 20px 7px;
+    gap: 90px;
+    border: 1px solid rgb(39, 39, 42);
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: rgb(24, 24, 27);
+    font-size: 16px;
+}
+.bodymainvide1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 1260px;
+    padding: 20px 27px;
+    gap: 90px;
+    border: 1px solid rgb(39, 39, 42);
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: rgb(24, 24, 27);
+    font-size: 16px;
+    
+}
+.vidembed video {
+    width: 545px;
+    height: 360px;
+}
+
+.boutvid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.boutvid h1 {
+    padding-top: 30px;
+    font-size: 32px;
+    font-weight: 500;
+
+    color: rgb(250, 250, 250);
+    letter-spacing: -1.2px;
+}
+
+.boutvid p {
+    font-size: 18px;
+    font-weight: 400;
+
+    color: rgb(161, 161, 170);
+    letter-spacing: -0.72px;
+}
+
+.tickmark img {
+    width: 10px;
+    height: 10px;
+}
+
+.tickmark {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.imageraround {
+    border-radius: 50%;
+    background-color: #27272a;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.liforbout li {
+    list-style-type: none;
+
+}
+
+.videosecleftright {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }

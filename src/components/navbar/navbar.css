@@ -106,11 +106,11 @@
 }
 
 .dropdown-menu li {
-  padding: 8px 20px 8px 15px;
+  padding: 10px 20px 10px 15px;
   color: #fafafa;
   white-space: normal;
   transition: background-color 0.3s ease, color 0.3s ease;
-  border-radius: 3px;
+  border-radius: 5px;
   list-style: none;
   overflow-wrap: break-word;
 }
