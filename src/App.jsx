@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/navbar/navbar'
 import About from './components/about/about'
+import ImageScroll from './components/imagescroll/imagescroll'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
  
       <Navbar/>
       <About/>
+      <ImageScroll/>
     
     </>
   )

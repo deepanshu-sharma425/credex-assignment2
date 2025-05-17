@@ -1,0 +1,48 @@
+.imagescroll{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 60px 0;
+     text-align: center;
+  overflow: hidden;
+    
+}
+.aboutimagescroll p{
+    text-align: center;
+    color: #5c5c64;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.realimagescroll {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.realscroll1 {
+  display: flex;
+  gap: 40px;
+  animation: scroll-left 30s linear infinite;
+}
+
+.realscroll1 img {
+  height: 60px;
+
+  width: 150px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.realscroll1 img:hover {
+  filter: grayscale(0%);
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
